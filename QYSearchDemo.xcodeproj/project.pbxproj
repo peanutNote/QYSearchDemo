@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		1EE266EE1BB93A7C0050088F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE266ED1BB93A7C0050088F /* main.m */; };
 		1EE266F11BB93A7C0050088F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE266F01BB93A7C0050088F /* AppDelegate.m */; };
-		1EE266F41BB93A7C0050088F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE266F31BB93A7C0050088F /* ViewController.m */; };
 		1EE266F71BB93A7C0050088F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266F51BB93A7C0050088F /* Main.storyboard */; };
 		1EE266F91BB93A7C0050088F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266F81BB93A7C0050088F /* Assets.xcassets */; };
 		1EE266FC1BB93A7C0050088F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266FA1BB93A7C0050088F /* LaunchScreen.storyboard */; };
+		1EE267061BB93BB00050088F /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267051BB93BB00050088F /* UserClass.m */; settings = {ASSET_TAGS = (); }; };
+		1EE267111BB93BE40050088F /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2670C1BB93BE40050088F /* SearchUserViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1EE267121BB93BE40050088F /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267101BB93BE40050088F /* SearchTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		1EE267151BB93CB60050088F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267141BB93CB60050088F /* UIViewExt.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		1EE266ED1BB93A7C0050088F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EE266EF1BB93A7C0050088F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EE266F01BB93A7C0050088F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EE266F21BB93A7C0050088F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EE266F31BB93A7C0050088F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EE266F61BB93A7C0050088F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE266F81BB93A7C0050088F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE266FB1BB93A7C0050088F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE266FD1BB93A7C0050088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE267041BB93BB00050088F /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserClass.h; sourceTree = "<group>"; };
+		1EE267051BB93BB00050088F /* UserClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserClass.m; sourceTree = "<group>"; };
+		1EE2670B1BB93BE40050088F /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserViewController.h; sourceTree = "<group>"; };
+		1EE2670C1BB93BE40050088F /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserViewController.m; sourceTree = "<group>"; };
+		1EE2670F1BB93BE40050088F /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		1EE267101BB93BE40050088F /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		1EE267131BB93CB60050088F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		1EE267141BB93CB60050088F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,8 @@
 			children = (
 				1EE266EF1BB93A7C0050088F /* AppDelegate.h */,
 				1EE266F01BB93A7C0050088F /* AppDelegate.m */,
-				1EE266F21BB93A7C0050088F /* ViewController.h */,
-				1EE266F31BB93A7C0050088F /* ViewController.m */,
+				1EE267091BB93BE40050088F /* 搜索我的客户 */,
+				1EE267031BB93B960050088F /* Resource */,
 				1EE266F51BB93A7C0050088F /* Main.storyboard */,
 				1EE266F81BB93A7C0050088F /* Assets.xcassets */,
 				1EE266FA1BB93A7C0050088F /* LaunchScreen.storyboard */,
@@ -77,6 +86,52 @@
 				1EE266ED1BB93A7C0050088F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE267031BB93B960050088F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1EE267131BB93CB60050088F /* UIViewExt.h */,
+				1EE267141BB93CB60050088F /* UIViewExt.m */,
+				1EE267041BB93BB00050088F /* UserClass.h */,
+				1EE267051BB93BB00050088F /* UserClass.m */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		1EE267091BB93BE40050088F /* 搜索我的客户 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2670A1BB93BE40050088F /* Controllers */,
+				1EE2670D1BB93BE40050088F /* Models */,
+				1EE2670E1BB93BE40050088F /* Views */,
+			);
+			path = "搜索我的客户";
+			sourceTree = "<group>";
+		};
+		1EE2670A1BB93BE40050088F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2670B1BB93BE40050088F /* SearchUserViewController.h */,
+				1EE2670C1BB93BE40050088F /* SearchUserViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1EE2670D1BB93BE40050088F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EE2670E1BB93BE40050088F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2670F1BB93BE40050088F /* SearchTableViewCell.h */,
+				1EE267101BB93BE40050088F /* SearchTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE266F41BB93A7C0050088F /* ViewController.m in Sources */,
 				1EE266F11BB93A7C0050088F /* AppDelegate.m in Sources */,
 				1EE266EE1BB93A7C0050088F /* main.m in Sources */,
+				1EE267061BB93BB00050088F /* UserClass.m in Sources */,
+				1EE267111BB93BE40050088F /* SearchUserViewController.m in Sources */,
+				1EE267151BB93CB60050088F /* UIViewExt.m in Sources */,
+				1EE267121BB93BE40050088F /* SearchTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
