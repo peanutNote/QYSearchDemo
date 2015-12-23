@@ -12,10 +12,10 @@
 		1EE266F71BB93A7C0050088F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266F51BB93A7C0050088F /* Main.storyboard */; };
 		1EE266F91BB93A7C0050088F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266F81BB93A7C0050088F /* Assets.xcassets */; };
 		1EE266FC1BB93A7C0050088F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE266FA1BB93A7C0050088F /* LaunchScreen.storyboard */; };
-		1EE267061BB93BB00050088F /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267051BB93BB00050088F /* UserClass.m */; settings = {ASSET_TAGS = (); }; };
-		1EE267111BB93BE40050088F /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2670C1BB93BE40050088F /* SearchUserViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1EE267121BB93BE40050088F /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267101BB93BE40050088F /* SearchTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		1EE267151BB93CB60050088F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267141BB93CB60050088F /* UIViewExt.m */; settings = {ASSET_TAGS = (); }; };
+		1EE267061BB93BB00050088F /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267051BB93BB00050088F /* UserClass.m */; };
+		1EE267111BB93BE40050088F /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2670C1BB93BE40050088F /* SearchUserViewController.m */; };
+		1EE267121BB93BE40050088F /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267101BB93BE40050088F /* SearchTableViewCell.m */; };
+		1EE267151BB93CB60050088F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE267141BB93CB60050088F /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -321,10 +321,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Blue Rhino Information Technology Co., Ltd (8RPBTWH6Y4)";
 				INFOPLIST_FILE = QYSearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYSearchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8d1b297a-6a86-4dc2-b785-95a9894ce725";
 			};
 			name = Debug;
 		};
@@ -332,10 +334,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Blue Rhino Information Technology Co., Ltd (8RPBTWH6Y4)";
 				INFOPLIST_FILE = QYSearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYSearchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8d1b297a-6a86-4dc2-b785-95a9894ce725";
 			};
 			name = Release;
 		};
@@ -358,6 +362,7 @@
 				1EE267021BB93A7C0050088F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
